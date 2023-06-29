@@ -17,7 +17,7 @@ export default function FloatingActionButtons() {
       </Fab>
       <Fab variant="extended">
         <NavigationIcon sx={{ mr: 1 }} />
-        Navigate
+        Navigate .
       </Fab>
       <Fab disabled aria-label="like">
         <FavoriteIcon />
