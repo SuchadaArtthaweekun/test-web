@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .content {
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .container:hover .content {
+    transform: rotate(15deg);
+  }
+  

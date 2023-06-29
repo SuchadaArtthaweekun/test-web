@@ -1,0 +1,26 @@
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background-color: #ff4081;
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.floating-button:hover {
+  background-color: #f50057;
+}
+
+.fab-icon {
+  margin-right: 5px;
+}

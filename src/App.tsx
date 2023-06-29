@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import FloatingActionButtons from './component/fab';
+// import FloatingButton from './component/FAB/FloatingButton';
+import MainComponent from './component/FAB/MainComponent';
+import Floatmenu from './component/floatmenu';
+import FloatingButtonDrag from './component/DragDrop/FloatingButtonDrag';
+import FloatingButton from './component/DragDrop/FloatingButtonDrag';
 
 function App() {
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainComponent />
+      {/* <Floatmenu /> */}
       <FloatingActionButtons />
+      <FloatingButton initialPosition={{
+        x: 0,
+        y: 0
+      }} />
     </div>
   );
 }
